@@ -26,3 +26,6 @@ Route::get('/cart', function () {
 Route::get('/product_single', function () {
     return view('product_single');
 });
+Route::get('/checkout', function () {
+    return view('checkout');
+});

@@ -27,8 +27,8 @@
     <span class="main-color-text float-right">$2,229.97</span>
   </div>
   <div class="pl-3 pr-3">
-    <a href="cart-default.html" class="btn d-block mb-2">Cart</a>
-    <a href="checkout.html" class="btn btn-bg d-block">Checkout</a>
+    <a href="{{ url('cart') }}" class="btn d-block mb-2">Cart</a>
+    <a href="{{ url('checkout') }}" class="btn btn-bg d-block">Checkout</a>
   </div>
 </div>
 <div class="b-main_menu-wrapper hidden-lg-up">
