@@ -14,7 +14,7 @@
                         <div class="b-topbar_menu float-md-right text-center">
                             <div class="b-menu_top_bar_container">
                                 <ul id="b-menu_top_bar" class="b-menu">
-                                    <li><a href="my-account.html"><i class="fa fa-user mr-1"></i>My Account</a></li>
+                                    <li><a href="{{ url('account') }}"><i class="fa fa-user mr-1"></i>My Account</a></li>
                                     <li><a href="cart-default.html">Cart</a></li>
                                     <li><a href="#">our location</a></li>
                                     <li><a href="contact-01.html">Contact Us</a></li>
@@ -43,103 +43,7 @@
                           <!-- Top level items -->
                           <li class=" b-has_sub b-dropdown_wrapper from-bottom">
                               <a href="{{ url('shop') }}" class=" description ">
-                              <span class="top">Shop</span><i class="menu-tag sale">SALE</i><i class="fa fa-angle-down"></i></a>
-                              <!-- Sub Menu items -->
-                              <div class="b-dropdown_content sub-holder dropdown-left" style="width: 1000px;">
-                                  <div class="dropdown-inner">
-                                      <div class="row">
-                                          <div class="col-xs-12 col-sm-3">
-                                              <div class="menu-item">
-                                                  <h4 class="column-title"><b>SHOP STYLES</b></h4> 
-                                                  <div class="categories">
-                                                      <div class="row">
-                                                          <div class="col-sm-12 hover-menu">
-                                                              <ul> 
-                                                                <li><a href="#">Masonry grid</a></li>
-                                                                <li><a href="shop-grid-leftbar.html">Alternative shop</a></li>
-                                                                <li><a href="shop-grid-four.html">Default style</a></li>
-                                                                <li><a href="#">Button on hover</a></li>
-                                                                <li><a href="#">Button hover alt</a></li>
-                                                                <li><a href="#">Hover info</a></li>
-                                                                <li><a href="#">Standard button</a></li>
-                                                                <li><a href="#">Quick shop products NEW</a></li>
-                                                                <li><a href="#">Grid/List switcher HOT</a></li>
-                                                              </ul>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div> 
-                                          <div class="col-xs-12 col-sm-3">
-                                              <div class="menu-item">
-                                                  <h4 class="column-title"><b>PRODUCT PAGES</b></h4> 
-                                                  <div class="categories">
-                                                      <div class="row">
-                                                          <div class="col-sm-12 hover-menu">
-                                                              <ul>  
-                                                                <li><a href="product-single.html">Default style</a></li>
-                                                                <li><a href="product-single-alternative.html">Alternative style</a></li>
-                                                                <li><a href="product-single-variation-image.html">Variations images</a></li>
-                                                                <li><a href="product-with-slider.html">Thumbnails bottom</a></li>
-                                                                <li><a href="#">Compact NEW</a></li>
-                                                                <li><a href="#">Sticky details</a></li>
-                                                                <li><a href="#">Extra content HOT</a></li>
-                                                                <li><a href="#">Thumbnails left</a></li> 
-                                                                <li><a href="#">Product with background</a></li>
-                                                              </ul>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div> 
-                                          <div class="col-xs-12 col-sm-3">
-                                              <div class="menu-item">
-                                                  <h4 class="column-title"><b>PRODUCT FEATURES</b></h4> 
-                                                  <div class="categories">
-                                                      <div class="row">
-                                                          <div class="col-sm-12 hover-menu">
-                                                              <ul>  
-                                                                <li><a href="#">360° product viewer</a></li>
-                                                                <li><a href="#">Zoom image</a></li>
-                                                                <li><a href="#">With video</a></li>
-                                                                <li><a href="#">Large Image</a></li>
-                                                                <li><a href="#">Infinit scrolling NEW</a></li>
-                                                                <li><a href="#">Variable Product</a></li>
-                                                                <li><a href="#">Grouped Product</a></li>
-                                                                <li><a href="#">External Product</a></li>
-                                                                <li><a href="#">Sidebar right</a></li>
-                                                              </ul>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>  
-                                          <div class="col-xs-12 col-sm-3">
-                                              <div class="menu-item">
-                                                  <h4 class="column-title"><b>SHOP PAGES</b></h4> 
-                                                  <div class="categories">
-                                                      <div class="row">
-                                                          <div class="col-sm-12 hover-menu">
-                                                              <ul>  
-                                                                <li><a href="shop-grid-two.html">2 Columns</a></li>
-                                                                <li><a href="shop-grid-three.html">3 Columns</a></li>
-                                                                <li><a href="shop-grid-four.html">4 Columns</a></li>
-                                                                <li><a href="shop-grid-six.html">6 Columns</a></li>
-                                                                <li><a href="shop-grid-leftbar.html">Sidebar Left</a></li>
-                                                                <li><a href="shop-grid-rightbar.html">Sidebar Right</a></li>
-                                                                <li><a href="shop-grid-six.html">Full width</a></li>
-                                                                <li><a href="#">Category banner</a></li>
-                                                                <li><a href="#">RTL Shop page NEW</a></li>
-                                                              </ul>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>  
-                                      </div>
-                                      <!-- row -->
-                                  </div>
-                              </div>
+                              <span class="top">Shop</span><i class="menu-tag sale">SALE</i></a>
                           </li>
                           <!-- Top level items --> 
                           <li class="b-has_sub b-dropdown_wrapper from-bottom">
@@ -288,7 +192,7 @@
               <div class="b-header_links hidden-sm-down">
                 <ul class="pl-0 mb-0 list-unstyled">
                     <li>
-                      <a href="my-account.html">Login / Register</a>
+                      <a href="{{ url('account') }}">Login / Register</a>
                     </li>
                 </ul>   
               </div>
